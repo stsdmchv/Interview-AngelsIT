@@ -1,3 +1,6 @@
+'''Задание #1 на собеседование в AngelsIT. Вывести в символьном выражении число введенное с клавиатуры, в диапазоне от 0 до 100'''
+
+
 def parsing_number(number):
     hundreds = int(number/100)
     dozens = int(number % 100/10)
